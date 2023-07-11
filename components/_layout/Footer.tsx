@@ -9,7 +9,7 @@ export const Footer = () => {
             <DocAndGitLinks />
           </div>
 
-          <p className='text-[12px] text-center md:text-left'>© 2022 SUSE. Open Zero Trust is an open source project of the SUSE Rancher Engineering group.</p>
+          <p className='text-[12px] text-center md:text-left'>© 2023 SUSE LLC. BCI is an open source project of SUSE.</p>
           {/* <SuseLogoSVG className='w-40 h-20 fill-current text-white' /> */}
         </div>
       </div>
