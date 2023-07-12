@@ -31,8 +31,13 @@ export default function Home() {
             </motion.div>
 
             <div className='col-span-2'>
-              <VideoBox url='https://www.youtube.com/watch?v=_PHDXvygJtU' />
+              <h2 className='text-secondary-dark dark:text-primary font-light text-lg'>TBD</h2>
+              <p className='text-bold my-4 text-sm'>More TBD</p>
+              <motion.p className='grid grid-flow-row gap-4 text-sm font-thin' initial='hidden' animate='visible' variants={motionListItems}>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              </motion.p>
             </div>
+
           </div>
         </div>
 
