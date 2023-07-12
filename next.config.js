@@ -5,5 +5,5 @@ module.exports = {
     unoptimized: true
   },
   //assetPrefix: 'https://opensource.suse.com/BCI',
-  basePath: '/BCI',
+  basePath: '/bci',
 }
