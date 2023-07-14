@@ -26,7 +26,7 @@ export default function Home() {
               <p className='text-2xl font-thin text-left text-secondary-dark dark:text-primary'>Base containers to build and run your applications</p>
 
               <p className='mt-4'>
-                Continuously scan throughout the container lifecycle <br /> Remove security roadblocks <br /> Bake in security policies from the start
+                Secure supply chain. Designed to be minimal. Base and programming language images. Use under your applications and in CI.
               </p>
             </motion.div>
 
@@ -56,28 +56,28 @@ export default function Home() {
               <h2 className='text-secondary-dark dark:text-primary font-light text-lg'>Supply Chain Security</h2>
               <p className='text-bold my-4 text-sm'>Secure, signed, and attested builds.</p>
               <motion.p className='grid grid-flow-row gap-4 text-sm font-thin' initial='hidden' animate='visible' variants={motionListItems}>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                Built using SUSE's build service which is designed to meet some of the strictest secure build certifications.
               </motion.p>
             </div>
 
             <div>
               <h2 className='text-secondary-dark dark:text-primary font-light text-lg'>Fast CVE Responses</h2>
-              <p className='text-bold my-4 text-sm'>More TBD</p>
+              <p className='text-bold my-4 text-sm'>Continuously updated with vulnerability fixes.</p>
               <motion.p className='grid grid-flow-row gap-4 text-sm font-thin' initial='hidden' animate='visible' variants={motionListItems}>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                Vulnerabilities happen. BCIs are continuously updated to fix known CVEs. The same policy that applies to SLE applies to these BCIs.
               </motion.p>
             </div>
 
             <div>
               <h2 className='text-secondary-dark dark:text-primary font-light text-lg'>Stable</h2>
-              <p className='text-bold my-4 text-sm'>More TBD</p>
+              <p className='text-bold my-4 text-sm'>Built on the stable cycles of SLE</p>
               <motion.p className='grid grid-flow-row gap-4 text-sm font-thin' initial='hidden' animate='visible' variants={motionListItems}>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
               </motion.p>
             </div>
 
             <div>
-              <h2 className='text-secondary-dark dark:text-primary font-light text-lg'>TBD</h2>
+              <h2 className='text-secondary-dark dark:text-primary font-light text-lg'>Supported</h2>
               <p className='text-bold my-4 text-sm'>More TBD</p>
               <motion.p className='grid grid-flow-row gap-4 text-sm font-thin' initial='hidden' animate='visible' variants={motionListItems}>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
