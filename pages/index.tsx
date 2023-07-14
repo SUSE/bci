@@ -11,7 +11,7 @@ export default function Home() {
         <title>SLE Base Container Images</title>
         <meta name='description' content='Continuously scan throughout the container lifecycle Remove security roadblocks Bake in security policies from the start' />
         {/** 👀 Replace with your custom favicon.ico */}
-        <link rel='icon' href='/favicon.ico' />
+        <link rel='icon' href='/bci/favicon.ico' />
       </Head>
 
       <main className='grid grid-flow-row gap-8 text-sm'>
@@ -20,8 +20,8 @@ export default function Home() {
           <div className='grid grid-row-2 content-center align-middle gap-14 md:grid-cols-3 mx-auto w-5/6 2xl:w-4/6 py-20'>
             <motion.div initial='hidden' animate='visible' variants={motionListItems} className='self-center'>
               <div className='my-4'>
-                <img className='w-90 fill-current dark:hidden my-4' src='SLE_BCI-pos.png' alt='' />
-                <img className='w-90 fill-current hidden dark:block my-4' src='SLE_BCI-neg.png' alt='' />
+                <img className='w-90 fill-current dark:hidden my-4' src='/bci/SLE_BCI-pos.png' alt='' />
+                <img className='w-90 fill-current hidden dark:block my-4' src='/bci/SLE_BCI-neg.png' alt='' />
               </div>
               <p className='text-2xl font-thin text-left text-secondary-dark dark:text-primary'>Base containers to build and run your applications</p>
 
