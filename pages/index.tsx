@@ -56,7 +56,7 @@ export default function Home() {
               <h2 className='text-secondary-dark dark:text-primary font-light text-lg'>Supply Chain Security</h2>
               <p className='text-bold my-4 text-sm'>Secure, signed, and attested builds.</p>
               <motion.p className='grid grid-flow-row gap-4 text-sm font-thin' initial='hidden' animate='visible' variants={motionListItems}>
-                Built using SUSE&apos;s build service which is designed to meet some of the strictest secure build certifications. Signed and verifiable with Sigstore's cosign.
+                Built using SUSE&apos;s build service which is designed to meet some of the strictest secure build certifications. Signed and verifiable with Sigstore&apos;s cosign.
               </motion.p>
             </div>
 
