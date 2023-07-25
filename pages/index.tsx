@@ -46,9 +46,9 @@ export default function Home() {
           <div className='grid grid-flow-row md:grid-cols-3 gap-14 mb-10'>
             <div>
               <h2 className='text-secondary-dark dark:text-primary font-light text-lg'>Easy To Use</h2>
-              <p className='text-bold my-4 text-sm'>More TBD</p>
+              <p className='text-bold my-4 text-sm'>Use like other popular base images.</p>
               <motion.p className='grid grid-flow-row gap-4 text-sm font-thin' initial='hidden' animate='visible' variants={motionListItems}>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                Use in your Dockerfiles and with common tools like Visual Studio Code or Docker. 
               </motion.p>
             </div>
 
@@ -56,7 +56,7 @@ export default function Home() {
               <h2 className='text-secondary-dark dark:text-primary font-light text-lg'>Supply Chain Security</h2>
               <p className='text-bold my-4 text-sm'>Secure, signed, and attested builds.</p>
               <motion.p className='grid grid-flow-row gap-4 text-sm font-thin' initial='hidden' animate='visible' variants={motionListItems}>
-                Built using SUSE&apos;s build service which is designed to meet some of the strictest secure build certifications.
+                Built using SUSE&apos;s build service which is designed to meet some of the strictest secure build certifications. Signed and verifiable with Sigstore's cosign.
               </motion.p>
             </div>
 
@@ -70,25 +70,25 @@ export default function Home() {
 
             <div>
               <h2 className='text-secondary-dark dark:text-primary font-light text-lg'>Stable</h2>
-              <p className='text-bold my-4 text-sm'>Built on the stable cycles of SLE</p>
+              <p className='text-bold my-4 text-sm'>Built on the stability of SLE</p>
               <motion.p className='grid grid-flow-row gap-4 text-sm font-thin' initial='hidden' animate='visible' variants={motionListItems}>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                Stability in your environment matters. With the base and language images you get a stability underlying environment while being able to keep up language versions.
               </motion.p>
             </div>
 
             <div>
               <h2 className='text-secondary-dark dark:text-primary font-light text-lg'>Supported</h2>
-              <p className='text-bold my-4 text-sm'>More TBD</p>
+              <p className='text-bold my-4 text-sm'>Support that goes beyond SLE</p>
               <motion.p className='grid grid-flow-row gap-4 text-sm font-thin' initial='hidden' animate='visible' variants={motionListItems}>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                You can get support for the BCIs running on SLE Micro, SLES, RKE2, K3s, AKS, GKE, EKS, and more.
               </motion.p>
             </div>
 
             <div>
-              <h2 className='text-secondary-dark dark:text-primary font-light text-lg'>TBD</h2>
-              <p className='text-bold my-4 text-sm'>More TBD</p>
+              <h2 className='text-secondary-dark dark:text-primary font-light text-lg'>Small</h2>
+              <p className='text-bold my-4 text-sm'>Small images available.</p>
               <motion.p className='grid grid-flow-row gap-4 text-sm font-thin' initial='hidden' animate='visible' variants={motionListItems}>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                Small images are a focus with sizes that are often smaller than direct competitors. That includes language images.
               </motion.p>
             </div>
           </div>
