@@ -9,7 +9,7 @@ export default function Home() {
     <>
       <Head>
         <title>SLE Base Container Images</title>
-        <meta name='description' content='Continuously scan throughout the container lifecycle Remove security roadblocks Bake in security policies from the start' />
+        <meta name='description' content='Minimal SUSE Linux Enterprise Server 15-based images that you can use to develop, deploy, and share applications' />
         {/** 👀 Replace with your custom favicon.ico */}
         <link rel='icon' href='/bci/favicon.ico' />
       </Head>
@@ -115,22 +115,10 @@ export default function Home() {
           <p className='text-2xl my-4 text-left text-secondary-dark dark:text-primary'>Getting started</p>
           <div className='grid grid-flow-row md:grid-cols-3 gap-6'>
             <div>
-              <p>Images are available on the NeuVector Docker Hub registry. Use the appropriate version tag for the manager, controller, enforcer, and leave the version as ‘latest’ for scanner and updater. For example:</p>
-              <ul className='flex flex-col gap-2 p-4 list-disc'>
-                <li>neuvector/manager.preview:5.0.0-preview.3</li>
-                <li>neuvector/controller.preview:5.0.0-preview.3</li>
-                <li>neuvector/enforcer.preview:5.0.0-preview.3</li>
-                <li>neuvector/scanner.preview:latest</li>
-                <li>neuvector/updater.preview:latest</li>
-              </ul>
+              <p>SLE BCI are available as OCI-compatible container images directly from registry.suse.com and can be used like any other container image</p>
             </div>
             <div>
-              <p>If deploying with the current NeuVector Helm chart (v1.8.9+), the following changes should be made to values.yml:</p>
-              <ul className='flex flex-col gap-2 p-4 list-disc'>
-                <li>Update the registry to docker.io</li>
-                <li>Update image names/tags to the preview version on Docker hub</li>
-                <li>Leave the imagePullSecrets empty</li>
-              </ul>
+              <p>Alternately, you can also use SLE BCI in a Dockerfile and build container images using your favorite container runtime</p>
             </div>
             <div className='flex flex-col gap-4'>
               <a href='https://github.com/neuvector/neuvector-helm' target='_blank' rel='nofollow noreferrer' className='hover:scale-105 transition-all underline flex align-middle justify-center px-auto py-2 font-bold text-white bg-primary-light dark:text-secondary-dark dark:bg-primary hover:underline hover:cursor-pointer'>
