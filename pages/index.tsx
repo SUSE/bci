@@ -93,13 +93,14 @@ export default function Home() {
         <div className='dark:bg-secondary-dark bg-gray-100 relative'>
           <div className='grid md:grid-cols-2 gap-4 m-16 mx-auto w-5/6 2xl:w-4/6'>
             <p className='text-secondary-dark dark:text-primary font-light text-3xl '>
-              Container Security from Pipeline <br /> to Production
+              High Quality Images <br /> Ready for Production
             </p>
 
             <div className='grid grid-flow-row gap-4 2xl:gap-8'>
               <p>
-                Open Zero Trust is the only kubernetes-native container security platform that delivers complete container security. Our end-to-end vulnerability management gives you a continuous risk profile on known threats. Our patented container firewall technology starts blocking on Day 1 to protect your infrastructure from known and unknown
-                threats. Our behavioral learning and Security as Code automation processes improve the flow between development and security. Integrating policy helps prevent future exposure.
+              SLE BCI empowers developers with a secure and reliable solution for constructing containers.
+              Our containers undergo regular maintenance from SUSE Linux Enterprise Server, guaranteeing they meet high levels of security and compliance with industry standards.
+              It seamlessly works with top cloud tooling like Kubernetes and Docker, offering a cohesive user experience across diverse platforms.
               </p>
             </div>
           </div>
