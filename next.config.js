@@ -4,6 +4,6 @@ module.exports = {
   images: {
     unoptimized: true
   },
-  //assetPrefix: 'https://opensource.suse.com/BCI',
-  basePath: '/bci',
+  //assetPrefix: process.env.NEXT_PUBLIC_BASE_PATH,
+  basePath: process.env.NEXT_PUBLIC_BASE_PATH ? process.env.NEXT_PUBLIC_BASE_PATH : '',
 }

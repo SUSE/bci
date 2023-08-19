@@ -3,6 +3,7 @@ import { NeuVectorSVG } from '@/assets/images'
 import { VideoBox } from '@/components/VideoBox'
 import { motion } from 'framer-motion'
 import Head from 'next/head'
+import { PREFIX } from '@/utils/constants'
 
 export default function Home() {
   return (
@@ -20,14 +21,14 @@ export default function Home() {
           <div className='grid grid-row-2 content-center align-middle gap-14 md:grid-cols-3 mx-auto w-5/6 2xl:w-4/6 py-20'>
             <motion.div initial='hidden' animate='visible' variants={motionListItems} className='self-center'>
               <div className='my-4'>
-                <img className='w-90 fill-current dark:hidden my-4' src='/bci/SLE_BCI-pos.png' alt='' />
-                <img className='w-90 fill-current hidden dark:block my-4' src='/bci/SLE_BCI-neg.png' alt='' />
+                <img className='w-90 fill-current dark:hidden my-4' src={`${PREFIX}/SLE_BCI-pos.png`} alt='' />
+                <img className='w-90 fill-current hidden dark:block my-4' src={`${PREFIX}/SLE_BCI-neg.png`} alt='' />
               </div>
             </motion.div>
 
             <div className='col-span-2' >
               <h2 className='text-secondary-dark dark:text-primary font-light text-lg'>Your stable foundation for software innovation</h2>
-              <p className='text-bold my-4 text-sm'>Build, deploy, and scale your applications with confidence.</p>  
+              <p className='text-bold my-4 text-sm'>Build, deploy, and scale your applications on SUSE maintained containers that are redistributable, open source, secure and dependable.</p>
               <a href="https://registry.suse.com" className="inline-flex items-center h-8 px-4 m-2 text-sm text-white transition-colors duration-150 bg-[#2453FF] rounded-lg focus:shadow-outline hover:bg-[#2453FF]">
                 Get started
               </a>
@@ -75,7 +76,7 @@ export default function Home() {
               <h2 className='text-secondary-dark dark:text-primary font-light text-lg'>Support</h2>
               <p className='text-bold my-4 text-sm'>Go above and beyond SLE</p>
               <motion.p className='grid grid-flow-row gap-4 text-sm font-thin' initial='hidden' animate='visible' variants={motionListItems}>
-                With support for BCIs running on SLE Micro, SLES, RKE2, K3s, AKS, GKE, EKS, and more, embrace true distribution agnosticity! 
+                With support for BCIs running on SLE Micro, SLES, RKE2, K3s, AKS, GKE, EKS, and more, embrace true distribution agnosticity!
               </motion.p>
             </div>
 
