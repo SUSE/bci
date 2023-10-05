@@ -136,11 +136,17 @@ export default function Home() {
             <div className='flex flex-col gap-4 p-8 bg-gray-400 dark:bg-secondary-dark'>
               <p className='text-2xl mb-4 text-left text-secondary-dark dark:text-primary'>How to get involved</p>
 
-              <p>SLE BCI is an open source project hosted on GitHub.</p>
-              <p>Bugs and features are tracked through issues and new code is reviewed through pull requests.</p>
+              <p>SLE BCI is built from following projects on GitHub:
+                <ul className='list-disc list-inside'>
+                  <li><a href="https://github.com/SUSE/BCI-dockerfile-generator/">BCI Dockerfile Generator</a></li>
+                  <li><a href="https://github.com/SUSE/BCI-tests/">BCI testsuite</a></li>
+                  <li><a href="https://github.com/SUSE/bci-docs/">BCI documentation</a></li>
+                  <li><a href="https://github.com/SUSE/bci">BCI website</a></li>
+                </ul>
+              </p>
 
               <div className='grid grid-flow-row md:grid-cols-2 gap-4'>
-                <a href='https://github.com/SUSE/BCI-tests/issues' target='_blank' rel='nofollow noreferrer' className='hover:scale-105 transition-all underline flex align-middle justify-center px-auto py-2 font-bold text-white bg-primary-light dark:text-secondary-dark dark:bg-primary hover:underline hover:cursor-pointer '>
+                <a href='https://github.com/SUSE/BCI-dockerfile-generator/issues' target='_blank' rel='nofollow noreferrer' className='hover:scale-105 transition-all underline flex align-middle justify-center px-auto py-2 font-bold text-white bg-primary-light dark:text-secondary-dark dark:bg-primary hover:underline hover:cursor-pointer '>
                   Issues
                 </a>
                 <a href='https://github.com/SUSE/BCI-tests/pulls' target='_blank' rel='nofollow noreferrer' className='hover:scale-105 transition-all underline flex align-middle justify-center px-auto py-2 font-bold text-white bg-primary-light dark:text-secondary-dark dark:bg-primary hover:underline hover:cursor-pointer '>
@@ -152,14 +158,14 @@ export default function Home() {
             <div className='flex flex-col gap-4 p-8 bg-gray-400 dark:bg-secondary-dark'>
               <p className='text-2xl mb-4 text-left text-secondary-dark dark:text-primary'>How to get support</p>
 
-              <p>Found an issue or have a problem? Community support happens in the #openzerotrust channel in Slack and in GitHub Issues, where you can search and file new issues. </p>
+              <p>Community support is offered in the BCI GitHub discussion forum. Commercial support options are available via <a href="https://www.suse.com/products/base-container-images/">SUSE BCI</a> which is included in many SUSE product subscriptions. </p>
               <p></p>
               <div className='grid grid-flow-row md:grid-cols-2 gap-4'>
-                <a href='https://slack.rancher.io/ ' target='_blank' rel='nofollow noreferrer' className='hover:scale-105 transition-all underline flex align-middle justify-center px-auto py-2 font-bold text-white bg-primary-light dark:text-secondary-dark dark:bg-primary hover:underline hover:cursor-pointer'>
-                  Rancher Users Slack
+                <a href='https://github.com/SUSE/bci/discussions' target='_blank' rel='nofollow noreferrer' className='hover:scale-105 transition-all underline flex align-middle justify-center px-auto py-2 font-bold text-white bg-primary-light dark:text-secondary-dark dark:bg-primary hover:underline hover:cursor-pointer'>
+                  SLE BCI GitHub discussion forum
                 </a>
-                <a href='https://github.com/SUSE/BCI-tests/issues ' target='_blank' rel='nofollow noreferrer' className='hover:scale-105 transition-all underline flex align-middle justify-center px-auto py-2 font-bold text-white bg-primary-light dark:text-secondary-dark dark:bg-primary hover:underline hover:cursor-pointer'>
-                  Issues
+                <a href='https://bugzilla.suse.com/enter_bug.cgi?product=PUBLIC%20SUSE%20Linux%20Enterprise%20Base%20Container%20Images' target='_blank' rel='nofollow noreferrer' className='hover:scale-105 transition-all underline flex align-middle justify-center px-auto py-2 font-bold text-white bg-primary-light dark:text-secondary-dark dark:bg-primary hover:underline hover:cursor-pointer'>
+                  Report an issue in Bugzilla
                 </a>
               </div>
             </div>
