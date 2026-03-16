@@ -9,7 +9,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>SLE Base Container Images</title>
+        <title>SUSE Linux Base Container Images</title>
         <meta name='description' content='Secure software innovation' />
         {/** 👀 Replace with your custom favicon.ico */}
         <link rel='icon' href='/bci/favicon.ico' />
@@ -66,15 +66,15 @@ export default function Home() {
 
             <div>
               <h2 className='text-secondary-dark dark:text-primary font-light text-lg'>Stable</h2>
-              <p className='text-bold my-4 text-sm'>Built on the dependability of SLE</p>
+              <p className='text-bold my-4 text-sm'>Built on the dependability of SUSE Linux Enterprise Server</p>
               <motion.p className='grid grid-flow-row gap-4 text-sm font-thin' initial='hidden' animate='visible' variants={motionListItems}>
-                With SLE BCI, ensure a rock solid foundation while keeping up with the changes in versions of technologies and/or languages.
+                With SUSE Linux BCI, ensure a rock solid foundation while keeping up with the changes in versions of technologies and/or languages.
               </motion.p>
             </div>
 
             <div>
               <h2 className='text-secondary-dark dark:text-primary font-light text-lg'>Support</h2>
-              <p className='text-bold my-4 text-sm'>Go above and beyond SLE</p>
+              <p className='text-bold my-4 text-sm'>Go above and beyond SUSE Linux Enterprise Server</p>
               <motion.p className='grid grid-flow-row gap-4 text-sm font-thin' initial='hidden' animate='visible' variants={motionListItems}>
                 With support for BCIs running on SLE Micro, SLES, RKE2, K3s, AKS, GKE, EKS, and more, embrace true distribution agnosticity!
               </motion.p>
@@ -99,7 +99,7 @@ export default function Home() {
 
             <div className='grid grid-flow-row gap-4 2xl:gap-8'>
               <p>
-              SLE BCI empowers developers with a secure and reliable solution for constructing containers.
+              SUSE Linux BCI empowers developers with a secure and reliable solution for constructing containers.
               Our containers undergo regular maintenance from SUSE Linux Enterprise Server, guaranteeing they meet high levels of security and compliance with industry standards.
               It seamlessly works with top cloud tooling like Kubernetes and Docker, offering a cohesive user experience across diverse platforms.
               </p>
@@ -112,10 +112,10 @@ export default function Home() {
           <p className='text-2xl my-4 text-left text-secondary-dark dark:text-primary'>Getting started</p>
           <div className='grid grid-flow-row md:grid-cols-3 gap-6'>
             <div>
-              <p>SLE BCI are available as OCI-compatible container images directly from registry.suse.com and can be used like any other container image</p>
+              <p>SUSE Linux BCI are available as OCI-compatible container images directly from registry.suse.com and can be used like any other container image</p>
             </div>
             <div>
-              <p>Alternately, you can also use SLE BCI in a Dockerfile and build container images using your favorite container runtime</p>
+              <p>Alternately, you can also use SUSE Linux BCI in a Dockerfile and build container images using your favorite container runtime</p>
             </div>
             <div className='flex flex-col gap-4'>
             <a href='https://opensource.suse.com/bci-docs/guides/use-with-golang/' target='_blank' rel='nofollow noreferrer' className='hover:scale-105 transition-all underline flex align-middle justify-center px-auto py-2 font-bold text-white bg-primary-light dark:text-secondary-dark dark:bg-primary hover:underline hover:cursor-pointer'>
@@ -136,7 +136,7 @@ export default function Home() {
             <div className='flex flex-col gap-4 p-8 bg-gray-400 dark:bg-secondary-dark'>
               <p className='text-2xl mb-4 text-left text-secondary-dark dark:text-primary'>How to get involved</p>
 
-              <p>SLE BCI is built from following projects on GitHub:
+              <p>SUSE Linux BCI is built from following projects on GitHub:
                 <ul className='list-disc list-inside'>
                   <li><a href="https://github.com/SUSE/BCI-dockerfile-generator/">BCI Dockerfile Generator</a></li>
                   <li><a href="https://github.com/SUSE/BCI-tests/">BCI testsuite</a></li>
@@ -162,7 +162,7 @@ export default function Home() {
               <p></p>
               <div className='grid grid-flow-row md:grid-cols-2 gap-4'>
                 <a href='https://github.com/SUSE/bci/discussions' target='_blank' rel='nofollow noreferrer' className='hover:scale-105 transition-all underline flex align-middle justify-center px-auto py-2 font-bold text-white bg-primary-light dark:text-secondary-dark dark:bg-primary hover:underline hover:cursor-pointer'>
-                  SLE BCI GitHub discussion forum
+                  SUSE Linux BCI GitHub discussion forum
                 </a>
                 <a href='https://bugzilla.suse.com/enter_bug.cgi?product=PUBLIC%20SUSE%20Linux%20Enterprise%20Base%20Container%20Images' target='_blank' rel='nofollow noreferrer' className='hover:scale-105 transition-all underline flex align-middle justify-center px-auto py-2 font-bold text-white bg-primary-light dark:text-secondary-dark dark:bg-primary hover:underline hover:cursor-pointer'>
                   Report an issue in Bugzilla
