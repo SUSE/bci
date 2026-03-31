@@ -21,8 +21,8 @@ export default function Home() {
           <div className='grid grid-row-2 content-center align-middle gap-14 md:grid-cols-3 mx-auto w-5/6 2xl:w-4/6 py-20'>
             <motion.div initial='hidden' animate='visible' variants={motionListItems} className='self-center'>
               <div className='my-4'>
-                <img className='w-90 fill-current dark:hidden my-4' src={`${PREFIX}/SLE_BCI-pos.png`} alt='' />
-                <img className='w-90 fill-current hidden dark:block my-4' src={`${PREFIX}/SLE_BCI-neg.png`} alt='' />
+                <img className='w-90 fill-current dark:hidden my-4' src={`${PREFIX}/SL_bci-pos.png`} alt='' />
+                <img className='w-90 fill-current hidden dark:block my-4' src={`${PREFIX}/SL_bci-neg.png`} alt='' />
               </div>
             </motion.div>
 
@@ -76,7 +76,7 @@ export default function Home() {
               <h2 className='text-secondary-dark dark:text-primary font-light text-lg'>Support</h2>
               <p className='text-bold my-4 text-sm'>Go above and beyond SUSE Linux Enterprise Server</p>
               <motion.p className='grid grid-flow-row gap-4 text-sm font-thin' initial='hidden' animate='visible' variants={motionListItems}>
-                With support for BCIs running on SLE Micro, SLES, RKE2, K3s, AKS, GKE, EKS, and more, embrace true distribution agnosticity!
+                With support for BCIs running on SUSE Linux Micro, SUSE Linux Enterprise Server, RKE2, K3s, AKS, GKE, EKS, and more, embrace true distribution agnosticity!
               </motion.p>
             </div>
 
